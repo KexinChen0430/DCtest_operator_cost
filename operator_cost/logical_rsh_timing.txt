@@ -1,0 +1,74 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : logical_rsh
+Version: Q-2019.12-SP4
+Date   : Sun May 11 22:19:50 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: b[3] (input port)
+  Endpoint: c[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[3] (in)                                0.00       0.00 f
+  U17/Z (NR2)                              1.59       1.59 r
+  U22/Z (ND2)                              0.30       1.89 f
+  U23/Z (NR2)                              1.33       3.21 r
+  U24/Z (AO2)                              0.55       3.77 f
+  U27/Z (ND2)                              0.64       4.40 r
+  c[0] (out)                               0.00       4.40 r
+  data arrival time                                   4.40
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[3] (input port)
+  Endpoint: c[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[3] (in)                                0.00       0.00 f
+  U17/Z (NR2)                              1.59       1.59 r
+  U22/Z (ND2)                              0.30       1.89 f
+  U23/Z (NR2)                              1.33       3.21 r
+  U32/Z (ND2)                              0.22       3.43 f
+  U34/Z (ND2)                              0.64       4.07 r
+  c[2] (out)                               0.00       4.07 r
+  data arrival time                                   4.07
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[3] (input port)
+  Endpoint: c[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[3] (in)                                0.00       0.00 f
+  U17/Z (NR2)                              1.59       1.59 r
+  U22/Z (ND2)                              0.30       1.89 f
+  U23/Z (NR2)                              1.33       3.21 r
+  U35/Z (AN2P)                             0.61       3.82 r
+  c[3] (out)                               0.00       3.82 r
+  data arrival time                                   3.82
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

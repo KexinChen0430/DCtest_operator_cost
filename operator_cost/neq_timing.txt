@@ -1,0 +1,102 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : mod
+Version: Q-2019.12-SP4
+Date   : Sun May 11 22:21:46 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: b[0] (input port)
+  Endpoint: c[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[0] (in)                                0.00       0.00 f
+  U46/Z (IVP)                              0.56       0.56 r
+  U47/Z (NR2)                              0.43       0.98 f
+  U48/Z (ND2)                              0.91       1.90 r
+  U49/Z (IVP)                              0.19       2.09 f
+  U54/Z (AO4)                              1.70       3.79 r
+  U61/Z (AO4)                              0.45       4.24 f
+  U62/Z (NR2)                              1.07       5.31 r
+  U63/Z (ND2)                              0.22       5.53 f
+  U64/Z (EN)                               1.08       6.61 r
+  U67/Z (EON1)                             1.29       7.90 f
+  U70/Z (AO5)                              2.16      10.06 r
+  U78/Z (AO4)                              0.78      10.85 f
+  U82/Z (AO1P)                             1.51      12.35 r
+  U83/Z (EO)                               1.13      13.48 f
+  c[1] (out)                               0.00      13.48 f
+  data arrival time                                  13.48
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[0] (input port)
+  Endpoint: c[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[0] (in)                                0.00       0.00 f
+  U46/Z (IVP)                              0.56       0.56 r
+  U47/Z (NR2)                              0.43       0.98 f
+  U48/Z (ND2)                              0.91       1.90 r
+  U49/Z (IVP)                              0.19       2.09 f
+  U54/Z (AO4)                              1.70       3.79 r
+  U61/Z (AO4)                              0.45       4.24 f
+  U62/Z (NR2)                              1.07       5.31 r
+  U63/Z (ND2)                              0.22       5.53 f
+  U64/Z (EN)                               1.19       6.72 f
+  U67/Z (EON1)                             2.13       8.84 r
+  U70/Z (AO5)                              0.77       9.61 f
+  U78/Z (AO4)                              2.23      11.84 r
+  U80/Z (AO1P)                             0.32      12.16 f
+  U81/Z (EN)                               1.13      13.29 f
+  c[2] (out)                               0.00      13.29 f
+  data arrival time                                  13.29
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: b[0] (input port)
+  Endpoint: c[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[0] (in)                                0.00       0.00 f
+  U46/Z (IVP)                              0.56       0.56 r
+  U47/Z (NR2)                              0.43       0.98 f
+  U48/Z (ND2)                              0.91       1.90 r
+  U49/Z (IVP)                              0.19       2.09 f
+  U54/Z (AO4)                              1.70       3.79 r
+  U61/Z (AO4)                              0.45       4.24 f
+  U62/Z (NR2)                              1.07       5.31 r
+  U63/Z (ND2)                              0.22       5.53 f
+  U64/Z (EN)                               1.19       6.72 f
+  U67/Z (EON1)                             2.13       8.84 r
+  U70/Z (AO5)                              0.77       9.61 f
+  U78/Z (AO4)                              2.23      11.84 r
+  U86/Z (NR2)                              0.31      12.14 f
+  U87/Z (EO)                               1.13      13.27 f
+  c[0] (out)                               0.00      13.27 f
+  data arrival time                                  13.27
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

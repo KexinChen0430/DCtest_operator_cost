@@ -1,0 +1,69 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : e1
+Version: Q-2019.12-SP4
+Date   : Sun May 11 23:15:58 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: x[24] (input port)
+  Endpoint: y[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  x[24] (in)                               0.00       0.00 r
+  U89/Z (IVP)                              0.26       0.26 f
+  U91/Z (AO2)                              1.34       1.60 r
+  U92/Z (EN)                               1.13       2.73 f
+  y[31] (out)                              0.00       2.73 f
+  data arrival time                                   2.73
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[23] (input port)
+  Endpoint: y[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  x[23] (in)                               0.00       0.00 r
+  U93/Z (IVP)                              0.26       0.26 f
+  U95/Z (AO2)                              1.34       1.60 r
+  U96/Z (EN)                               1.13       2.73 f
+  y[30] (out)                              0.00       2.73 f
+  data arrival time                                   2.73
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[22] (input port)
+  Endpoint: y[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  x[22] (in)                               0.00       0.00 r
+  U97/Z (IVP)                              0.26       0.26 f
+  U99/Z (AO2)                              1.34       1.60 r
+  U100/Z (EN)                              1.13       2.73 f
+  y[29] (out)                              0.00       2.73 f
+  data arrival time                                   2.73
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

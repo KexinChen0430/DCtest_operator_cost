@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : reduce_nxor
+Version: Q-2019.12-SP4
+Date   : Sun May 11 22:30:05 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: a[1] (input port)
+  Endpoint: c[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[1] (in)                                0.00       0.00 f
+  U7/Z (EN)                                1.13       1.13 f
+  U8/Z (EN)                                1.19       2.32 f
+  U9/Z (EN)                                1.13       3.44 f
+  c[0] (out)                               0.00       3.44 f
+  data arrival time                                   3.44
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

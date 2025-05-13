@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : reduce_not_and
+Version: Q-2019.12-SP4
+Date   : Sun May 11 22:27:46 2025
+****************************************
+
+Library(s) Used:
+
+    lsi_10k (File: /Business/EDA_xq_company/public/tools/syn_Q-2019.12-SP4/libraries/syn/lsi_10k.db)
+
+Number of ports:                            8
+Number of nets:                             6
+Number of cells:                            2
+Number of combinational cells:              1
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       1
+
+Combinational area:                  2.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     2.000000
+Total area:                 undefined
+1

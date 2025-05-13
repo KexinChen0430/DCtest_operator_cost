@@ -1,0 +1,71 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : sub
+Version: Q-2019.12-SP4
+Date   : Sun May 11 22:36:49 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: a[1] (input port)
+  Endpoint: c[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[1] (in)                                0.00       0.00 f
+  U12/Z (IVP)                              0.49       0.49 r
+  U18/CO (FA1A)                            2.18       2.67 r
+  U16/CO (FA1A)                            1.08       3.75 r
+  U15/Z (EN)                               1.13       4.88 f
+  c[3] (out)                               0.00       4.88 f
+  data arrival time                                   4.88
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[1] (input port)
+  Endpoint: c[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[1] (in)                                0.00       0.00 f
+  U12/Z (IVP)                              0.49       0.49 r
+  U18/CO (FA1A)                            2.18       2.67 r
+  U16/S (FA1A)                             1.18       3.85 r
+  U17/Z (IVP)                              0.19       4.05 f
+  c[2] (out)                               0.00       4.05 f
+  data arrival time                                   4.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[1] (input port)
+  Endpoint: c[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[1] (in)                                0.00       0.00 f
+  U12/Z (IVP)                              0.49       0.49 r
+  U18/S (FA1A)                             2.28       2.77 r
+  U19/Z (IVP)                              0.19       2.97 f
+  c[1] (out)                               0.00       2.97 f
+  data arrival time                                   2.97
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

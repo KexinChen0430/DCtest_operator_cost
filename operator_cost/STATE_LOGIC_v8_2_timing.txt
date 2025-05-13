@@ -1,0 +1,16 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : STATE_LOGIC_v8_2
+Version: Q-2019.12-SP4
+Date   : Sun May 11 23:13:45 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+No paths.
+
+1

@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : logical_or
+Version: Q-2019.12-SP4
+Date   : Sun May 11 22:18:56 2025
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: a[3] (input port)
+  Endpoint: c[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                                0.00       0.00 f
+  U7/Z (NR4)                               1.58       1.58 r
+  U9/Z (ND2)                               0.22       1.80 f
+  c[0] (out)                               0.00       1.80 f
+  data arrival time                                   1.80
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

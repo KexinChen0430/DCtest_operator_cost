@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : e1
+Version: Q-2019.12-SP4
+Date   : Sun May 11 23:15:55 2025
+****************************************
+
+Library(s) Used:
+
+    lsi_10k (File: /Business/EDA_xq_company/public/tools/syn_Q-2019.12-SP4/libraries/syn/lsi_10k.db)
+
+Number of ports:                           64
+Number of nets:                           120
+Number of cells:                           88
+Number of combinational cells:             88
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         24
+Number of references:                       3
+
+Combinational area:                184.000000
+Buf/Inv area:                       24.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   184.000000
+Total area:                 undefined
+1
